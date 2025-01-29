@@ -1,0 +1,10 @@
+APP_NAME=Jupiter(DevConFig)
+APP_ID=com.pttdigital.jupiter.store
+MAPS_API_KEY_ANDROID=AIzaSyAnR9MucOH_NKL70qJ0A4YBJF8Z8Dq34zo
+MAPS_API_KEY_IOS=AIzaSyDyNDRmXQ6I1-9pyVnL_3XKnk-as66_W_E
+IOS_UPDATE=https://apps.apple.com/app/id6450412686
+ANDROID_UPDATE=market://details?id=com.pttdigital.jupiter.store
+MAIN_SRC=src/main/kotlin
+ORG_CODE=ju0001
+VERSION_NAME=1.0.5
+VERSION_CODE=24

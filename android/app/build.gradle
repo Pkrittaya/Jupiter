@@ -1,0 +1,192 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+    id "com.google.firebase.crashlytics"
+}
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+// def envVariables = [
+//     APP_NAME: project.hasProperty('APP_NAME')
+//             ? APP_NAME
+//             : "Jupiter",
+//     APP_ID: project.hasProperty('APP_ID')
+//             ? APP_ID
+//             : "com.pttdigital.jupiter.store",
+   
+//     MAPS_API_KEY_ANDROID: project.hasProperty('MAPS_API_KEY_ANDROID')
+//             ? MAPS_API_KEY_ANDROID
+//             : "",   
+//     MAIN_SRC: project.hasProperty('MAIN_SRC')
+//             ? MAIN_SRC
+//             : "src/main/kotlin",
+//     VERSION_NAME: project.hasProperty('VERSION_NAME')
+//             ? VERSION_NAME
+//             : "1.0.0",
+//       VERSION_CODE: project.hasProperty('VERSION_CODE')
+//             ? VERSION_CODE
+//             : "1",
+  
+// ];
+
+def envVariables = []
+if (project.hasProperty('dart-defines')) {
+    envVariables = project.property('dart-defines')
+        .split(',')
+        .collectEntries { entry ->
+            def pair = new String(entry.decodeBase64(), 'UTF-8').split('=')
+            [(pair.first()): pair.last()]
+        }
+}else{
+    envVariables = [
+    APP_NAME:  "Jupiter",
+    APP_ID: "com.pttdigital.jupiter.store",
+    MAPS_API_KEY_ANDROID: "",   
+    MAIN_SRC : "src/main/kotlin",
+    VERSION_NAME:  "1.0.0",
+    VERSION_CODE:  "1"
+  ];
+}
+
+// apply plugin: 'com.android.application'
+// apply plugin: 'kotlin-android'
+// apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+// FIREBASE
+// apply plugin: 'com.google.gms.google-services'
+// apply plugin: 'com.google.firebase.crashlytics' 
+
+android {
+    println "dart-define: APP_NAME = ${project.hasProperty('dart-defines')}"
+    println "dart-define: APP_NAME = ${envVariables}"
+
+    namespace envVariables.APP_ID
+    compileSdkVersion flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+ signingConfigs  {
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'debug@#123'
+            storeFile file('debug.keystore')
+            storePassword 'debug@#123'
+        }
+       release {
+           keyAlias 'androidreleasekey'
+           keyPassword 'release@#123'
+           storeFile file('release.keystore')
+           storePassword 'release@#123'
+       }
+   }
+    // compileOptions {
+    //     sourceCompatibility JavaVersion.VERSION_1_8
+    //     targetCompatibility JavaVersion.VERSION_1_8
+    // }
+
+    // kotlinOptions {
+    //     jvmTarget = '1.8'
+    // }
+
+    sourceSets {
+        // main.java.srcDirs += 'src/main/kotlin'
+        main.java.srcDirs +=  envVariables.MAIN_SRC
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId envVariables.APP_ID
+   
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
+        minSdkVersion 24 
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode envVariables.VERSION_CODE.toInteger()
+        versionName envVariables.VERSION_NAME
+        resValue "string", "app_name", envVariables.APP_NAME
+        resValue "string", "google_map_api_key", envVariables.MAPS_API_KEY_ANDROID
+        resValue "string", "application_id", envVariables.APP_ID
+    }
+
+    
+   
+  
+
+    ndkVersion "25.2.9519653"
+    buildTypes {
+         debug {
+            // manifestPlaceholders = [GOOGLE_MAPS_API_KEY: "AIzaSyAnR9MucOH_NKL70qJ0A4YBJF8Z8Dq34zo"] 
+            manifestPlaceholders = [APP_ID: envVariables.APP_ID] ;
+            
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
+        release {
+            // manifestPlaceholders = [GOOGLE_MAPS_API_KEY: "AIzaSyD1WQ9s5u3IRaA6KfpzIXBDOofnLBg6dbY"] 
+            manifestPlaceholders = [APP_ID: envVariables.APP_ID] ;
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.release
+             ndk {
+                debugSymbolLevel 'FULL'
+            }
+        }
+    }
+       
+    flavorDimensions "app"
+    productFlavors {
+        playstore {
+            // dimension "app"
+        //   manifestPlaceholders.GOOGLE_MAPS_API_KEY =  "AIzaSyBHgQSX6pJyDtnOCmB7aP1N3jtPI31puf4"
+            // manifestPlaceholders = [GOOGLE_MAPS_API_KEY:"AIzaSyBHgQSX6pJyDtnOCmB7aP1N3jtPI31puf4"]
+        }
+        plc {
+      
+        }
+        mea {
+
+        }
+    }
+   
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.android.material:material:1.8.0'
+
+    // FIREBASE
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+     implementation("com.google.firebase:firebase-crashlytics-ktx")
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation "androidx.multidex:multidex:2.0.1"
+    // //2C2P PGW SDK  
+    // implementation files("libs/PGW_SDK_ANDROID_v4.5.1.aar")  
+    // //2C2P PGW SDK HELPER  
+    // implementation files("libs/PGW_SDK_HELPER_ANDROID_v4.0.1.aar")  
+}
+0

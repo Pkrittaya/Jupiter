@@ -1,0 +1,12 @@
+{
+    "APP_NAME": "Jupiter",
+    "APP_ID": "com.pttdigital.jupiter.store",
+    "MAPS_API_KEY_ANDROID": "AIzaSyBHgQSX6pJyDtnOCmB7aP1N3jtPI31puf4",
+    "MAPS_API_KEY_IOS": "AIzaSyDyNDRmXQ6I1-9pyVnL_3XKnk-as66_W_E",
+    "IOS_UPDATE": "https://apps.apple.com/app/id6450412686",
+    "ANDROID_UPDATE": "market://details?id=com.pttdigital.jupiter.store",
+    "MAIN_SRC": "src/main/kotlin",
+    "ORG_CODE": "ju0001",
+    "VERSION_NAME": "1.1.1",
+    "VERSION_CODE": 30
+}                                             

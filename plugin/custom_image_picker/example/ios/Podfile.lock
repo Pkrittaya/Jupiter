@@ -1,0 +1,42 @@
+PODS:
+  - custom_image_picker (0.0.1):
+    - Flutter
+    - SwiftGridView
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - photo_manager (2.0.0):
+    - Flutter
+    - FlutterMacOS
+  - SwiftGridView (0.7.5)
+
+DEPENDENCIES:
+  - custom_image_picker (from `.symlinks/plugins/custom_image_picker/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftGridView
+
+EXTERNAL SOURCES:
+  custom_image_picker:
+    :path: ".symlinks/plugins/custom_image_picker/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+
+SPEC CHECKSUMS:
+  custom_image_picker: adc5a009d19269e2da6a3e0da617716773e32ab0
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  photo_manager: 4f6810b7dfc4feb03b461ac1a70dacf91fba7604
+  SwiftGridView: 148349d26bcf09a1dd7815953eb2a3a31d190dcc
+
+PODFILE CHECKSUM: b1dba20e13aed28c516b42a11125946a84ae8ab3
+
+COCOAPODS: 1.11.3

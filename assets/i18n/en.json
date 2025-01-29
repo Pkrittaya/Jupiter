@@ -1,0 +1,968 @@
+{
+    "app_title": {
+        "login": "Login",
+        "register": "Register",
+        "home": "Home",
+        "main": "",
+        "map": "Map",
+        "setting": "Setting",
+        "term": "Term and Condition",
+        "scan_qrcode": "Scan QR code",
+        "charging_check_in": "Check in",
+        "charging_charger": "Charging",
+        "charging_summary": "Summary",
+        "ev_info": "Vehicle",
+        "profile": "Profile",
+        "profile_edit": "Edit Profile",
+        "ev_information_add_page": "Add Vehicle",
+        "ev_information_Edit_page": "Edit Vehicle",
+        "history": "History",
+        "payment": "Payment",
+        "add_payment": "Add Payment Method",
+        "checkin": "Check In",
+        "details": "Details",
+        "tax_invoice": "Add Tax Invoice",
+        "update_tax_invoice": "Update Tax Invoice",
+        "security": "Setting & Privacy",
+        "coupon": "Coupon",
+        "favorite": "Favorite",
+        "update_password": "Update Password",
+        "update_pin": "Update PIN",
+        "notification": "Notification",
+        "booking": "Booking",
+        "fleet_card": "Fleet Card",
+        "fleet_operation": "Fleet Operation",
+        "check_image_ocr": "Check the photo"
+    },
+    "side_menu": {
+        "login": "Login",
+        "register": "Register",
+        "home": "Home",
+        "map": "Map",
+        "setting": "Setting",
+        "term": "Term and Condition"
+    },
+    "login_page": {
+        "forgot_password": "Forgot Password?",
+        "do_not_have_account": "Don't have account?",
+        "resent_verify_email": "Resend Verify Email",
+        "or": "Or",
+        "remark_forgot_password": "Note: The system will send a link to change your password to your email.",
+        "remark_verify_email": "Note: The system will send a verification link to your email."
+    },
+    "appbar": {
+        "search": "Search Here",
+        "suffix_cancel": "Cancel"
+    },
+    "input_form": {
+        "login": {
+            "email": "E-mail",
+            "email_hint": "jupiter@pttdigital.com",
+            "password": "Password",
+            "password_hint": "Password"
+        },
+        "register": {
+            "general": "General",
+            "account": "Account",
+            "security": "Security",
+            "profile": "Profile",
+            "name": "First Name",
+            "name_hint": "First Name",
+            "lastname": "Last Name",
+            "lastname_hint": "Last Name",
+            "gender": "Gender",
+            "gender_hint": "Select Gender",
+            "gender_list": {
+                "male": {
+                    "text": "Male",
+                    "value": "male"
+                },
+                "female": {
+                    "text": "Female",
+                    "value": "female"
+                },
+                "rather_not_say": {
+                    "text": "Rather not say",
+                    "value": "rather not say"
+                }
+            },
+            "birthdate": "Birthday",
+            "birthdate_hint": "Birthday",
+            "email": "E-Mail",
+            "email_hint": "jupiter@pttdigital.com",
+            "mobile": "Phone Number",
+            "mobile_hint": "",
+            "username": "Username (e-mail)",
+            "username_hint": "jupiter@pttdigital.com",
+            "password": "Password",
+            "password_hint": "Password , 8 Characters (A-Z , a-z , 0-9,! @ .)",
+            "confirm_password": "Confirm Password",
+            "confirm_password_hint": "Confirm Password"
+        },
+        "otp": {
+            "title": "OTP Verification",
+            "sub_title": "Enter the code from the sms we sent to",
+            "count_down": "",
+            "complete_title": "Successful registration",
+            "complete_message": "Please check your email and confirm registration in your email.",
+            "donot_receive_otp": "Don't receive the OTP?",
+            "resend_otp": "I didn't receive any code",
+            "resend": "Resend"
+        }
+    },
+    "button": {
+        "Ok": "OK",
+        "done": "Done",
+        "close": "Close",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "login": "Login",
+        "register": "Register",
+        "send_otp": "Send OTP",
+        "verify_otp": "Verify OTP",
+        "step_continue": "Get Started",
+        "step_next": "Next",
+        "step_accept": "Accept",
+        "step_decline": "Decline",
+        "step_cancel": "CANCEL",
+        "step_previous": "PREVIOUS",
+        "step_complete": "COMPLETE",
+        "step_register": "REGISTER",
+        "step_confirm": "Confirm",
+        "back_to_home": "Back to Homepage",
+        "back_to_operation": "Back to Fleet Operation",
+        "submit": "Submit",
+        "try_again": "Try Again",
+        "delete": "Delete",
+        "remove": "Remove",
+        "keep": "Keep",
+        "ok2": "Confirm",
+        "setting": "Go to Setting"
+    },
+    "alert": {
+        "title": {
+            "default": "Unable to proceed",
+            "success": "Successfully",
+            "warning": "Warning"
+        },
+        "description": {
+            "default": "Please try again.",
+            "unsubscribe": "Do you want to unsubscribe?",
+            "add_vehicle_later": "Do you want to add more vehicles later?",
+            "register_success": "Successfully registered.\nPlease check your email to confirm registration before using.",
+            "verify_email": "Please check your email box again.",
+            "check_login_failure": "Unable to log in to continue.",
+            "error_login": "The username or password is incorrect.",
+            "send_forgot_password": "Please change your password with the link sent to your email.",
+            "change_image_profile": "Successfully changed profile picture.",
+            "add_tax_invoice_success": "Successfully added tax invoice.",
+            "update_tax_invoice_success": "Successfully edited tax invoice.",
+            "delete_tax_confirm": "Do you want to delete this tax invoice information?",
+            "is_default": "It cannot be deleted because it is the default.",
+            "set_default_success": "Successfully set as default.",
+            "error_reserve_60": "Please select a reservation period of 60 minutes or less.",
+            "error_reserve_between": "Can't make a reservation due to the selected period A booking has already been made by someone else.",
+            "booking_success": "Booking succeeded",
+            "confirm_booking": "Confirm Booking",
+            "change_password_success": "Password changed successfully\nPlease log in again.",
+            "no_have_payment": "No payment information found. Please add/select the credit card you wish to pay.",
+            "internet": "Can't find internet signal\nPlease check your internet connection again.",
+            "server_error": "Unable to connect to server. Please try again.",
+            "cancel_update_password": "Do you want to cancel password updates?",
+            "dont_have_permission_camera": "Please enable the application to access the camera.",
+            "charging_success": "Charging is complete."
+        }
+    },
+    "widgets": {
+        "please_fill_in": "Please fill in"
+    },
+    "term": "<h3>Terms and Conditions</h3><br/><br/><p>บริษัท ซอฟต์เอฟเวอร์ จำกัด จัดทำเนื้อหาและให้บริการบนเว็บไซต์แก่ท่านภายใต้ข้อกำหนดและเงื่อนไข ต่อไปนี้ นโยบายความเป็นส่วนตัวของบริษัท และข้อกำหนดและเงื่อนไขอื่น รวมทั้งนโยบายต่างๆ ที่ท่านจะหาได้ทั่วเว็บไซต์ของบริษัทในส่วนที่เกี่ยวกับการใช้งาน รูปแบบ และการส่งเสริมการขายบางประการ รวมทั้งการบริการลูกค้า ซึ่งทั้งหมดถือเป็นส่วนหนึ่งและรวมอยู่ในข้อกำหนดและเงื่อนไขเหล่านี้ (รวมเรียกว่า “ข้อกำหนดและเงื่อนไข”) โดยการเข้าใช้เว็บไซต์ ท่านยอมรับว่าท่านได้อ่าน เข้าใจและตกลงที่จะผูกพันตามข้อกำหนดและเงื่อนไขเหล่านี้โดยไม่จำกัด<br/><br/>1. ความเป็นส่วนตัว<br/><br/>โปรดทบทวน นโยบายความเป็นส่วนตัว ของบริษัท เพื่อท่านจะได้เข้าแนวใจปฏิบัติเกี่ยวกับความเป็นส่วนตัวของบริษัท<br/><br/>2. ผลิตภัณฑ์และบริการสำหรับการใช้งานส่วนบุคคล<br/><br/>ผลิตภัณฑ์และบริการบนเว็บไซต์พร้อมตัวอย่างที่บริษัทให้แก่ท่านก็เพื่อใช้ส่วนบุคคลเท่านั้น ท่านจะขาย ขายต่อผลิตภัณฑ์หรือบริการใดๆ หรือตัวอย่างของผลิตภัณฑ์และบริการที่ท่านซื้อหรือที่ท่านได้รับจากบริษัทไม่ได้ บริษัทสงวนสิทธิ์ที่จะยกเลิก ข้อกำหนดและเงื่อนไขของบริษัท โดยจะแจ้งหรือไม่แจ้งให้ท่านทราบก็ได้<br/><br/>3. นโยบายและขั้นตอนเกี่ยวกับการซื้อ<br/><br/>ดูนโยบายและขั้นตอนเกี่ยวกับคำสั่งซื้อผ่านเว็บไซต์นี้ (เช่น การสมัครสมาชิก การสร้างข้อสอบ และการออกผลการสอบ)<br/><br/>4. ความถูกต้องของข้อมูล<br/><br/>รายละเอียดผลิตภัณฑ์บนเว็บไซต์ของบริษัทนั้น บริษัทพยายามให้ข้อมูลที่ถูกต้องที่สุดเท่าที่จะเป็นได้ แต่ไม่รับประกันว่ารายละเอียดและขั้นตอนที่มีอยู่บนเว็บไซต์ถูกต้อง ครบถ้วน เชื่อถือได้ เป็นปัจจุบัน หรือปราศจากข้อผิดพลาด<br/><br/>5. ทรัพย์สินทางปัญญา<br/><br/>ข้อมูลและเนื้อหาทั้งหมดบนเว็บไซต์และ “การออกแบบและส่วนประกอบ”  การรวบรวมข้อมูลและซอฟท์แวร์ รวมทั้งการรวบรวมและการจัดการข้อมูลนั้น “รวมเรียกว่า “เนื้อหา” เป็นทรัพย์สินของ บริษัท ซอฟต์เอฟเวอร์ จำกัด ห้ามมิให้ใช้ ผลิตซ้ำ ทำซ้ำ ลอกเลียน ขาย ขายต่อ เข้าใช้ ดัดแปลง หรือ ใช้ประโยชน์โดยประการอื่นซึ่งเนื้อหาหรือส่วนใดๆ ของเว็บไซต์ ไม่ว่าทั้งหมดหรือบางส่วน เพื่อวัตถุประสงค์ใดๆ โดยไม่ได้รับความยินยอมเป็นลายลักษณ์อักษรโดยชัดแจ้งจากบริษัทก่อน<br/><br/>6. ความรับผิดชอบของท่าน<br/><br/>ในการเข้าใช้เว็บไซต์ ให้ท่านปฏิบัติตามข้อกำหนดและเงื่อนไข รวมทั้งคำเตือนหรือคำสั่งพิเศษสำหรับการเข้าชม หรือการใช้ที่ขึ้นไว้ที่เว็บไซต์ ให้ท่านปฏิบัติให้สอดคล้องกับกฎหมาย จารีตประเพณี และโดยสุจริตอยู่เสมอ ท่านจะไม่ทำการเปลี่ยนแปลงไซต์หรือเนื้อหาใดๆ หรือบริการที่อาจปรากฏที่เว็บไซต์ และจะไม่ทำให้เสื่อมสภาพของการเป็นเจ้าของหรือการดำเนินการของไซต์ โดยไม่จำกัดหลักเกณฑ์ทั่วไปของข้อความอื่นใดของข้อกำหนดและเงื่อนไขเหล่านี้ หากท่านผิดข้อกำหนดการปฏิบัติตามข้อกำหนดและเงื่อนไขข้อใดโดยประมาทหรือโดยเจตนา ท่านจะต้องผิดรับผิดต่อการสูญเสียหรือค่าเสียหายที่อาจเกิดทั้งหมด<br/><br/>7. บัญชีของท่าน<br/><br/>ถ้าท่านเลือกที่จะลงทะเบียนที่ไซต์ของบริษัท ท่านจะมีที่อยู่/ชื่อผู้ใช้อีเมล์ และรหัสผ่านสำหรับบัญชีของท่าน ท่านเป็นผู้รับผิดชอบต่อการคงไว้ซึ่งการเป็นความลับของบัญชี ชื่อผู้ใช้ และรหัสผ่านของท่าน และต่อการจำกัดการเข้าใช้เครื่องคอมพิวเตอร์ของท่าน ท่านเป็นผู้รับผิดชอบต่อการรักษาข้อมูลให้เป็นปัจจุบัน ครบถ้วน ถูกต้อง และเป็นความจริง ท่านตกลงยอมรับความรับผิดชอบต่อบรรดากิจกรรมที่เกิดกับบัญชี ชื่อผู้ใช้ และ/หรือรหัสผ่านของท่าน ท่านตกลงที่จะให้ข้อมูลที่เป็นปัจจุบัน ครบถ้วน ถูกต้อง และเป็นความจริงเท่านั้น หากท่านกำลังเข้าชม และใช้เว็บไซต์ในชื่อของผู้อื่น ท่านรับรองว่าท่านมีอำนาจที่จะกระทำการแทนเพื่อผูกพันบุคคลผู้นั้นในฐานะตัวการต่อข้อกำหนดและเงื่อนไขที่ระบุไว้ในข้อตกลงนี้ และหากท่านไม่มีอำนาจในระดับที่กล่าวมา ท่านตกลงที่จะผูกพันต่อข้อกำหนดและเงื่อนไขเหล่านี้ และยอมรับชดใช้ต่ออันตรายที่เกิดจากการใช้งานเว็บไซต์ที่ไม่ถูกต้อง หรือต่อเนื้อหาอันเป็นผลจากการเข้าชม หรือการใช้ดังกล่าว บริษัทสงวนสิทธิที่จะปฏิเสธการบริการ และ/หรือยกเลิกบัญชีโดยไม่ต้องมีการบอกกล่าวล่วงหน้า<br/><br/>8. การเชื่อมโยงกับบุคคลภายนอกก<br/><br/>บริษัทไม่รับผิดชอบต่อเนื้อหาของเพจใดๆ ที่อยู่นอกเว็บไซต์ หรือเว็บไซต์อื่นใดที่ถูกโยงไปถึง หรือจากเว็บไซต์(ของบริษัท) การเชื่อมโยงที่ปรากฎบนเว็บไซต์เป็นไปเพื่อความสะดวกเท่านั้น และมิใช่การรับรองโดยบริษัท บริษัทในเครือ หรือหุ้นส่วนของบริษัทต่อเนื้อหา ผลิตภัณฑ์ การบริการ หรือซัพพลายเออร์ที่ถูกอ้างอิง การเชื่อมโยงไปถึง หรือจากเพจใดๆ ที่อยู่นอกเว็บไซต์ หรือเว็บไซต์อื่นเป็นความเสี่ยงของท่านเอง บริษัทไม่รับผิดชอบในการตรวจสอบ หรือการประเมิน และบริษัทไม่รับรองการนำเสนอของเพจที่อยู่นอกเว็บไซต์หรือเว็บไซต์อื่นใดที่ถูกโยงถึง หรือจากไซต์ (ของบริษัท) และบริษัทไม่รับผิดชอบ หรือรับผิดใดๆ ต่อการกระทำ เนื้อหา ผลิตภัณฑ์ หรือการบริการของเพจและเว็บไซต์ดังกล่าว รวมทั้งแต่ไม่จำกัดเฉพาะนโยบายความเป็นส่วนตัว รวมทั้งข้อกำหนดและเงื่อนไขของเว็บไซต์อื่นๆ เหล่านั้น ให้ท่านทบทวนข้อกำหนดและเงื่อนไข ตลอดจนนโยบายความเป็นส่วนตัวของเพจนอกเว็บไซต์ และเว็บไซต์อื่นๆ ที่ท่านเข้าชมด้วยความระมัดระวัง<br/><br/>9. รูปแบบ ฟังก์ชั่นการใช้งานและกิจกรรมพิเศษ<br/><br/>เว็บไซต์อาจนำเสนอรูปแบบ ฟังก์ชั่นการใช้งานและกิจกรรมพิเศษ (อาทิ การเรียนการสอนออนไลน์ ) ซึ่งอาจ อยู่ภายใต้ข้อกำหนดการใช้ ระเบียบและ/หรือนโยบายที่เพิ่มขึ้นหรือเข้าแทนที่ข้อกำหนดและเงื่อนไขเดิม และถูกนำเสนอโดยบริษัท หรือโดยบุคคลภายนอก ซึ่งหากมี บริษัทจะแจ้งให้ท่านทราบเรื่องดังกล่าว และหากท่านเลือกที่จะรับประโยชน์จากข้อเสนอเหล่านี้ ท่านตกลงว่าการใช้ข้อเสนอนั้นๆ จะอยู่ภายใต้ข้อกำหนด ระเบียบและ/หรือนโยบายของการใช้ที่เพิ่มเข้ามา หรือแยกต่างหาก<br/><br/>10. ข้อความที่ส่ง<br/><br/>เป็นนโยบายของบริษัทที่จะปฏิเสธคำแนะนำและความคิดเห็นที่บริษัทมิได้ร้องขอ โดยที่ นโยบายของบริษัทที่มีต่อคำแนะนำและความคิดเห็น ข้อซักถาม ข้อมูลย้อนกลับ คำแนะนำ ความคิดเห็น หรือข้อมูลอื่นๆ ที่บริษัทมิได้ร้องขอซึ่งท่านจัดทำให้บริษัท (รวมเรียกว่า “ข้อความที่ส่ง”) จะได้รับการปฏิบัติในลักษณะที่ไม่มีผู้ใดเป็นเจ้าของและไม่เป็นความลับ<br/><br/>หากท่านจัดทำเนื้อหาขึ้นชิ้นหนึ่ง ท่านรับประกันและรับรองว่าท่านเป็นเจ้าของหรือมิฉะนั้น ควบคุมสิทธิในเนื้อหาดังกล่าวนั้น ท่านรับประกันและรับรองต่อไปว่า เนื้อหาที่ส่งนั้นไม่เป็นองค์ประกอบหรือมีไวรัสซอฟต์แวร์ การชักชวนเชิงการค้า จดหมายลูกโซ่ จดหมายที่ส่งเป็นกลุ่มใหญ่ หรือรูปแบบใดๆ ที่เป็น “สแปม (SPAM)” ท่านไม่ควรใช้ที่อยู่อีเมล์อันเป็นเท็จ อำพรางตัวว่าเป็นบุคคลหรือองค์กรใด หรือทำให้บริษัทเชื่อว่าเป็นจุดกำเนิดของเนื้อหาที่ส่งมา ท่านตกลงรับผิดชดใช้ให้บริษัทต่อการเรียกร้องใดๆ อันเกิดจาก หรือเกี่ยวเนื่องกับการเรียกร้องในสิทธิในเนื้อหาที่ส่งมา หรือค่าเสียหายใดๆ ที่เกิดจากเนื้อหาใดๆ ที่ส่งมา<br/><br/>11. การร้องเรียนด้านลิขสิทธิ์<br/><br/>บริษัทเคารพทรัพย์สินทางปัญญาของผู้อื่น หากท่านเชื่อว่า งานถูกลอกเลียนบนเว็บไซต์(ของบริษัท)ในลักษณะที่มีองค์ประกอบเป็นการละเมิดลิขสิทธิ์ โปรด คลิกที่นี่ เพื่อค้นหาวิธีการแจ้งต่อบริษัทเรื่องการละเมิดที่ได้รับการร้องเรียน<br/><br/>12. การรับรองและรับประกัน การจำกัดความรับผิด<br/><br/>เว็บไซต์ถูกนำเสนอ “ตามที่เป็นอยู่จริง” บริษัทไม่รับประกันหรือรับรองเนื้อหาประเภทใด ในเรื่องใดทั้งโดยชัดแจ้งหรือโดยนัยในส่วนที่เกี่ยวกับข้อกำหนดและเงื่อนไข หรือเว็บไซต์ รวมทั้งแต่ไม่จำกัดเฉพาะการรับรองความเหมาะสมของสภาพการเป็นที่ซื้อขายได้ การไม่ละเมิด หรือความเหมาะสมสำหรับวัตถุประสงค์เฉพาะ เว้นแต่ในระดับที่การรับประกันและการรับรองนั้นไม่อาจแยกออกไปได้ในทางกฎหมาย<br/><br/>13. การชดใช้ค่าเสียหาย<br/><br/>ท่านตกลงที่จะต่อสู้ รับผิดชอบค่าเสียหาย และทำให้บริษัทพ้นจากอันตรายต่อการสูญเสีย ค่าเสียหาย หรือค่าใช้จ่ายใดๆ รวมทั้งค่าธรรมเนียมทนายความตามความเหมาะสม อันเป็นผลจากการเรียกร้องของบุคคลภายนอก การฟ้องร้อง หรือการทวงถามอันเป็นผลจากการใช้เว็บไซต์นี้ของท่าน หรือการผิดข้อกำหนดและเงื่อนไขทั้งหลาย อีกทั้ง ท่านตกลงชดใช้ค่าเสียหายให้แก่บริษัทสำหรับการสูญหาย ค่าเสียหาย หรือค่าใช้จ่ายต่างๆ รวมทั้งค่าธรรมเนียมทนายความตามความเหมาะสม อันเป็นผลจากการที่ท่านใช้ซอฟต์แวร์โรบอต สไปเดอร์ ครอเลอร์ หรือเครื่องมือในการเก็บและดึงข้อมูลที่คล้ายกัน หรือการกระทำอื่นใดซึ่งท่านได้ก่อภาระอันไม่สมควร หรือทำให้เป็นภาระกับโครงสร้างพื้นฐานของบริษัท<br/><br/>14. ความยินยอมที่จะรับการบอกกล่าวแบบอิเล็กทรอนิกส์ด้วยการโพสต์บนไซต์และทางอีเมล์<br/><br/>ท่านยินยอมที่จะรับซึ่งข้อตกลง การบอกกล่าว การเปิดเผย และการสื่อสารอื่นใด (รวมเรียกว่า “การบอกกล่าว”) จากบริษัท โดยที่ข้อกำหนดและเงื่อนไขได้ออกจากบริษัทในรูปแบบอิเล็กทรอนิกส์ รวมถึงแต่ไม่จำกัดเฉพาะทางอีเมล์ หรือการโพสต์การบอกกล่าวบนเว็บไซต์ ท่านตกลงว่า บรรดาการบอกกล่าวที่บริษัทจัดให้ท่านทางอิเล็กทรอนิกส์นั้น เป็นการส่งที่เป็นที่ยอมรับและพอใจของท่านต่อในกรณีที่มีข้อกำหนดตามกฎหมายให้การบอกกล่าวสื่อสารที่เกี่ยวกับดังกล่าวต้องทำเป็นลายลักษณ์อักษร หากท่านต้องการถอนความยินยอมต่อการรับการบอกกล่าวทางอิเล็กทรอนิกส์ ท่านต้องแจ้งให้บริษัททราบถึงการถอนความยินยอมดังกล่าวโดยส่งอีเมล์ถึงบริษัทที่  sale@softever.co.th<br/><br/>โปรดรับทราบว่าการยินยอมรับการบอกกล่าวสื่อสารเป็นส่วนที่แยกจากการเลือกใช้ส่วนอื่น ซึ่งท่านอาจทำโดยเกี่ยวข้องกับการรับการสื่อสารทางการตลาด การเลือกของท่านในการรับการสื่อสารทางการตลาดได้ระบุไว้ใน นโยบายความเป็นส่วนตัว ของบริษัท</p>",
+    "qrcode_page": {
+        "title": "Scan QR Code",
+        "description": "Scan the QR code on the charger\nto connect charging for your car",
+        "alert_message": "Scan QR code on ev charger to check in.",
+        "input": {
+            "title": "Enter Charger Code",
+            "description": "Enter the charger code number\nto connect charging for your car"
+        },
+        "button": {
+            "scan_qr": "Scan",
+            "enter_code": "Enter Code"
+        },
+        "permission": {
+            "title": "Jupiter need access the camera.",
+            "description": "Please \"Go to Setting\" and allow permission\n to Scan QR Code"
+        }
+    },
+    "ev_information_page": {
+        "alert_confirm_delete_title": "Confirm Delete",
+        "alert_confirm_delete_message": "Do you want to delete this car information?",
+        "brand": "Brand",
+        "model": "Model",
+        "license_plate": "License Plate",
+        "add_ev_car_button": "Add Vehicle"
+    },
+    "ev_information_add_page": {
+        "done": "Done",
+        "information": "Lorem ipsum dolor sit\n amet consectetur.\n Justo etiam neque leo placerat\n vitae a.",
+        "select_brand_model": {
+            "brand": "Brand",
+            "model": "Model"
+        },
+        "vahicle_information": {
+            "vehicle_information": "Vehicle Information",
+            "license_plate": "License Plate",
+            "province": "Province"
+        },
+        "default_vehicle": {
+            "set_default_vehicles": "Set Default Vehicles",
+            "default": "Default"
+        },
+        "button_save": "Save",
+        "validate": {
+            "required": "required field!",
+            "empty_field": "Please fill out the information completely."
+        },
+        "modal": {
+            "search": "Search"
+        }
+    },
+    "payment_page": {
+        "alert_confirm_delete_title": "Confirm Delete",
+        "alert_confirm_delete_message": "Do you want to delete this credit card?",
+        "card_number": "Card Number",
+        "expries_on": "Expries on",
+        "button_add_payment": "Add Cards",
+        "set_default_card": "Set default payment"
+    },
+    "charging_page": {
+        "chargeing_price": "Charging Price",
+        "dropdown_car_default_text": "No Car",
+        "progress_pointer_energy": "Energy (kWh)",
+        "charging_step": {
+            "charging_time": "Charging Time",
+            "charging_time_unit": "hr",
+            "estimate_distance": "Estimate Distance",
+            "charger_info": "Charger Information",
+            "charging_id": "ID :",
+            "charging_socket": "Socket :",
+            "voltage": "Voltage",
+            "current": "Current",
+            "power": "Power",
+            "stop_charging": "Stop Charging"
+        },
+        "check_in_step": {
+            "how_to_charge": "How to charge",
+            "plug_connector": "\t\t1.Plug a connector to EV socket",
+            "check_info_below": "\t\t2.Check the information below”",
+            "press_start": "\t\t3.Press “Start Charging”",
+            "charger_info": "Charger Infomation",
+            "choose_car_placeholder": "Choose a car",
+            "payment_methods": "Payment Methods",
+            "choose_creditcard_placeholder": "Choose a credit card",
+            "start_charging_button": "Start Charging"
+        },
+        "summary_step": {
+            "successful": "Successful !",
+            "session_is_complate": "You charging session is complete.",
+            "total": "Total"
+        },
+        "charging_duration": {
+            "title": "Charging Duration"
+        },
+        "charging_other": {
+            "information": "Charger Information"
+        },
+        "charging_change": {
+            "km": "Km",
+            "kw": "kW",
+            "hr": "hr",
+            "kWh": "kWh",
+            "distance": "Distance",
+            "charging_time": "Charging Time",
+            "power_charging": "Power Charging"
+        },
+        "payment": {
+            "title": "Payment",
+            "description": "linked credit card"
+        },
+        "energy_delivered": "Energy Delivered",
+        "amount_paid": "Amount Paid ",
+        "id": "ID",
+        "socket": "Socket",
+        "facility": "Facility",
+        "error_page": "Failed to Load Data",
+        "slide_button_stop": "Slide to Stop Charging",
+        "title": "Charging",
+        "error_load_creditcard": "Cannot load Credit Card",
+        "coupon": {
+            "no_coupon": "No coupon"
+        },
+        "add_current_battery": "+ Add Current Battery",
+        "tooltip": {
+            "tootip_distancce_title": "Estimate Distance",
+            "tootip_distancce_body": "Estimate Distance is calculated from power consumption according to each electric vehicle’s brand and model."
+        },
+        "select_vehicle":{
+            "add_select_vehicle": "+ Select Vehicle",
+            "title":"Select Vehicle",
+            "search_vehicle":"Search Vehicle",
+            "save":"Save"
+        },
+        "button_stop_rfid":"Stop Charging With RFID",
+        "waiting_charger": {
+            "title": "Please wait a moment.",
+            "message": "The charger is currently\ncharging.",
+            "close": "Auto-closing in",
+            "min": "s"
+        }
+    },
+    "check_in_page": {
+        "plug_in_success": "The charging cable is connected.",
+        "plug_in": "Please plug in the charger.",
+        "select_payment": {
+            "add_card": "+ Card",
+            "payment": "Payment",
+            "error": "Please add a credit card to start charging."
+        },
+        "select_vehicle": {
+            "select_vehicle": "Select Vehicle",
+            "add_vehicle": "+ Vehicle",
+            "add_battery": "+Add Current Battery",
+            "bat_volume": "Battery Volume",
+            "error": "Please select the car you want to charge.",
+            "view_more":"View more >"
+        },
+        "select_offers": {
+            "offers": "Coupon",
+            "apply_coupon": "Apply Coupon",
+            "not_available":"Can not be used",
+            "error":"Coupon cannot be used."
+        },
+        "modal_offers": {
+            "offers": "Coupon",
+            "hint_text_search": "Enter code coupon or select coupon",
+            "expire_date": "Expire Date",
+            "day_after_collected": "day after collected",
+            "title_alert": "Coupon",
+            "description_alert": "Used Coupon"
+        },
+        "charger_cost": {
+            "title": "Charging Cost",
+            "sub_title": "Charge no more than the specified amount"
+        },
+        "charger_energy": {
+            "title": "Charging Energy",
+            "sub_title": "Charge energy is not exceeded",
+            "kwh": "kWh"
+        },
+        "charger_time": {
+            "title": "Charging Time",
+            "sub_title": "Charging at specified time",
+            "time": "Hr"
+        },
+        "charger_data": {
+            "left": "Left",
+            "right": "Right",
+            "middle": "Middle",
+            "status": "Connector Status : "
+        },
+        "battery": {
+            "battery": "Available Battery",
+            "current_battery": "Current Battery",
+            "description": "Entering the Current Battery Percentage will increase the efficiency of calculating charging more accurately"
+        },
+        "information": "Lorem ipsum dolor sit\n amet consectetur.\n Justo etiam neque leo placerat\n vitae a.",
+        "check_in_device": {
+            "id": "ID",
+            "socket": "Socket",
+            "connector": "Connector",
+            "description": "Please choose a connector to match your vehicle and your needs. for efficiency and charging time.",
+            "button_continue": "Continue"
+        },
+        "advanced_options": {
+            "advanced_options": "Advanced options Charging",
+            "option_charging": "Option Charging",
+            "full": "Full Charge",
+            "energy": "Energy",
+            "duration": "Duration",
+            "amount": "Amount",
+            "charge_full": "Max Capacity"
+        },
+        "status_charger": {
+            "available": "Available",
+            "pairing": "Pairing",
+            "occupied": "Charging"
+        },
+        "id": "ID",
+        "socket": "Socket",
+        "standard_charging": "Standard Charging",
+        "hight_speed_charging": "Hight Speed Charging",
+        "power": "Power",
+        "slide_button_active": "Slide to Start Charging",
+        "slide_button_inactive": "Connect To Vehicle",
+        "error_page": "Failed to Load Data",
+        "start_charging_error": "Sorry, this cannot be processed.",
+        "scan_qrcode": {
+            "used_coupon": "Used Coupon!!",
+            "not_find": "Not find coupon",
+            "no_permission": "no Permission",
+            "scan_qrcode_view_detail": "Scan the QR code on the coupon to view coupon infomation"
+        },
+        "verify_ocr": {
+            "text_title": "Verify License Plate",
+            "field_des": "Vehicle license plate number",
+            "info_des": "Please scan your license plate to verify your car.",
+            "info_err_des": "The vehicle registration is incorrect. Please scan again.",
+            "start_scan": "Start scan",
+            "button_not_verify": "Please verify using your license plate",
+            "button_verified": "Verified with license plate image",
+            "slide_button_please_verify": "Take a photo of\nthe license plate",
+            "slide_button_inactive_both": "Take license plate\nand connect to vehicle",
+            "des_camera": "Arrange the license plate in the frame.",
+            "des_camera_capture": "Taking the photo. Please wait a moment.",
+            "des_camera_verify": "Verifying the photo. Please wait a moment.",
+            "please_select_car": "Please select the car you want to charge before taking a photo of the license plate",
+            "approved": "Passed inspection",
+            "rejected": "Not verified Please try again.",
+            "failed": "An error was encountered. Please try again.",
+            "checking": "Checking"
+        },
+        "low_priority": "Low Priority"
+    },
+    "profile_page": {
+        "username": "Username",
+        "firstname": "Firstname",
+        "lastname": "Lastname",
+        "gender": "Gender",
+        "dateofbirth": "Birthday",
+        "phone": "Phone Number",
+        "button": {
+            "logout": "Logout",
+            "edit": "Edit"
+        }
+    },
+    "profile_edit_page": {
+        "username": "Username",
+        "firstname": "Firstname",
+        "lastname": "Lastname",
+        "gender": "Gender",
+        "dateofbirth": "Birthday",
+        "phone": "Phone Number",
+        "button": {
+            "save": "Save"
+        },
+        "tax_invoice": {
+            "title_button": "Tax Invoice Info.",
+            "text_button": "Add Tax Invoice Address"
+        }
+    },
+    "station_details_page": {
+        "button": {
+            "get_direction": "Navigation",
+            "check_in": "Check in",
+            "book_now": "Book now"
+        },
+        "charger": "Charger",
+        "book": "Book",
+        "week": {
+            "mon": "Mon",
+            "tue": "Tue",
+            "wed": "Wed",
+            "thu": "Thu",
+            "fri": "Fri",
+            "sat": "Sat",
+            "sun": "Sun"
+        },
+        "low_priority": "This station is being operated under low-priority power supply control. Users may experience supobtimal power capacity at certain times.",
+        "status_charger": {
+            "occupied": "Occupied",
+            "preparing": "Preparing",
+            "available": "Available",
+            "outofservice": "Outofservice",
+            "maintenance": "Maintenance"
+        }
+    },
+    "more_page": {
+        "title": {
+            "account": "Account",
+            "general": "General"
+        },
+        "menu": {
+            "vehicle": "Vehicle",
+            "favorite": "Favorite",
+            "payment": "Payment",
+            "coupon": "Coupon",
+            "update_pin": "Update PIN",
+            "security": "Settings & Privacy"
+        },
+        "button": {
+            "logout": "Logout"
+        }
+    },
+    "map_page": {
+        "title": "Find EV Stations",
+        "map_filter": {
+            "setting": "Setting",
+            "search_by_charger": "Search by charger type",
+            "search_empty_charger": "Search only for empty chargers",
+            "button": {
+                "back": "Back",
+                "save": "Save"
+            },
+            "filter": "Filter",
+            "distance": "Near me",
+            "openForService": "Open for service",
+            "chargerAvailable": "Charger Available",
+            "onlyMatchesCar": "Only the charger that matches your car",
+            "ac": "AC",
+            "dc": "DC",
+            "apply": "Apply",
+            "reset": "Reset",
+            "select_map":"Select on Map"
+        },
+        "route_planner":{
+            "current_location":"Current Location",
+            "modal_detail":{
+                "alert_title":"Confirm Delete",
+                "alert_desc":"This route will be removed from your favorite"
+            },
+            "select_your_route":"Select Your Route",
+            "distance":"Distance",
+            "km":"km",
+            "min":"min",
+            "hr":"hr",
+            "day":"d",
+            "see_detail":"See Detail",
+            "drop_pin":"Drop pin or select station to see detail and add place to go.",
+            "add_location":"Add Location",
+            "save_route":"Save Route",
+            "done":"Done",
+            "route_name":"Route Name",
+            "save_to_favorite":"The route will save in “Favorite > Route”",
+            "route":"Route",
+            "navigation":"Navigation",
+            "edit":"Edit",
+            "select_destination":"Select Destination Point",
+            "route_detail":"Route Detail",
+            "not_service_area":"Not in the service area",
+            "stop":"Stop",
+            "stops":"Stops"
+        }
+    },
+    "home_page": {
+        "more_menu": {
+            "profile": "Profile",
+            "ev_info": "EV Infomation",
+            "payment": "Payment"
+        },
+        "news": "PR News",
+        "recommended_station": {
+            "title": "Recommended Station",
+            "near_me": "Near me",
+            "quick_charge": "Quick Charge"
+        }
+    },
+    "history_page": {
+        "total_charging": "Total Charging",
+        "instead_trees": "Reduce carbon",
+        "unit": "kg CO₂",
+        "type": {
+            "charging": "Charging",
+            "booking": "Booking"
+        }
+    },
+    "history_detail_page": {
+        "charger_inform": "Charger Information",
+        "start_time": "Start Time",
+        "end_time": "End Time",
+        "energy": "Energy",
+        "payment_details": "Payment Details",
+        "charging_fee": "Charging Fee",
+        "unit": {
+            "kWh": "kWh",
+            "THB": "THB"
+        },
+        "coupon_discount": "Coupon Discount",
+        "vat": "VAT 7%",
+        "grand_total": "Grand Total",
+        "distance": "Distance",
+        "save_slip": "Save the slip"
+    },
+    "register_page": {
+        "term": "Terms of Service",
+        "header": "Register",
+        "rule_password": "Password must be at least 8 characters, contain upper and lower letter, number and symbol (A-Z , a-z , 0-9,! @ .)",
+        "validate": {
+            "required": "required field!",
+            "email": "enter a valid eamil",
+            "password": "Minimum length 8, at least 1 letter, 1 number, 1 special character",
+            "confirm_password": "confirm password not match!",
+            "phone": "enter correct phone number"
+        },
+        "step": {
+            "one": "Policy",
+            "two": "Information",
+            "three": "OTP",
+            "four": "Electric Car"
+        },
+        "add_vehicle": {
+            "title": "Add Electric Car",
+            "success": "Successfully added your vehicle."
+        }
+    },
+    "receipt_page": {
+        "successful": "Successful !",
+        "start_time": "Start Time",
+        "end_time": "End Time",
+        "energy_rate": "Energy Rate",
+        "energy_delivered": "Energy Delivered",
+        "charging_fee": "Charging Fee",
+        "coupon_discount": "Coupon Discount",
+        "vat": "VAT 7%",
+        "total": "Total",
+        "good_day": "Have a good day!",
+        "payment": "Payment Method",
+        "save_image": "Save Image Success !",
+        "reserve_fee": "Reserve Fee",
+        "price_before_vat": "Price (Before VAT)",
+        "coupon_not_available": "coupon isn't available",
+        "payment_declined": "Payment Declined",
+        "payment_method": "Payment Method",
+        "payment_declined_update": "Payment declined Please update your payment method.",
+        "modal_payment": {
+            "add_card": "Add Cards",
+            "confirm": "Confirm"
+        },
+        "payment_progress": "Payment in progress",
+        "alert_error_payment": {
+            "title": "Payment",
+            "description": "Payment has a problem"
+        },
+        "car_band":"Car Brand",
+        "license_plate":"License Plate"
+    },
+    "tax_invoice_page": {
+        "title": {
+            "info": "Information",
+            "address": "Address",
+            "tax_invoice": "Tax Invoice"
+        },
+        "type": {
+            "personal": "Personal",
+            "corporate": "Corporate"
+        },
+        "hint": {
+            "billing_name": "Billing name",
+            "tax_id_national_id": "Tax ID / National ID",
+            "branch_name": "Branch name (for corporate)",
+            "branch_code": "Branch code (Ex. 00000)",
+            "address": "Address",
+            "province": "Province",
+            "district": "District",
+            "subdistrict": "Subdistrict",
+            "post_code": "Postal code",
+            "default": "Default"
+        }
+    },
+    "security_page": {
+        "general": {
+            "title": "General",
+            "language": "ภาษา / Language",
+            "notification": "Notification"
+        },
+        "privacy": {
+            "title": "Privacy",
+            "face_touch_id": "FaceID / TouchID",
+            "update_password": "Update Password"
+        },
+        "legal": {
+            "title": "Legal",
+            "term": "Terms of Service"
+        },
+        "delete_account": "Delete Account"
+    },
+    "update_password_page": {
+        "previous": "Previous Password",
+        "new": "New Password",
+        "confirm": "Confirm Password"
+    },
+    "notification_page": {
+        "modal": {
+            "title": "Remove all notifications ?",
+            "description": "Notification message will be Remove permanently"
+        },
+        "read_all": "Read All",
+        "systems":"Systems",
+        "news":"Notification",
+        "notification_detail":{
+            "see_more":"See more",
+            "use_coupon":"Used coupon"
+        }
+    },
+    "booking_page": {
+        "booking_time": "Booking Time",
+        "reset": "reset",
+        "payment": "Payment",
+        "total_payment": "Total Payment",
+        "book_now": "Book Now",
+        "detail": {
+            "description": "The system will stop charging before the timer expires 5 minutes.",
+            "start_time": "Start Time",
+            "end_time": "End Time",
+            "start_date": "Start Date",
+            "end_date": "End Date"
+        },
+        "booking_rate": "Booking Rate",
+        "booking_fee": "Booking Fee",
+        "bottom_booking_success": "Please bring your car during your booking time."
+    },
+    "fleet_page": {
+        "operation": {
+            "connector": "Connector",
+            "vehicle": "Vehicle"
+        },
+        "card": {
+            "expired": "Expired in",
+            "fleet_credit": "Credit",
+            "available": "Available",
+            "filter":{
+                "all":"All",
+                "fleet_card":"Fleet Card",
+                "rfid":"RFID",
+                "auto_charge":"Autocharge"
+            }
+        },
+        "detail": {
+            "available": "Available",
+            "usage": "Usage",
+            "total_energy": "Total Energy (kWh)",
+            "fleet_credit": "Credit",
+            "billing_date": "Billing Date",
+            "filter":{
+                "all": "  All  ",
+                "charging":"Charging",
+                "available":"Available"
+            }
+        },
+        "tab": {
+            "charging_station": "Charging Station",
+            "history": "History",
+            "transaction_of": "Transaction of"
+        },
+        "add_fleet": {
+            "title": "Add Fleet Card",
+            "fleet_no": {
+                "fleet_no": "Fleet Card No.",
+                "card_no": "Card No."
+            },
+            "expired_date": {
+                "expired_date": "Expired Date",
+                "month": "Month",
+                "year": "Year"
+            },
+            "vahicle_information": {
+                "vehicle_information": "Vehicle Information",
+                "license_plate": "License Plate",
+                "province": "Province"
+            },
+            "validate": {
+                "required": "required field!"
+            }
+        }
+    },
+    "session_expire": {
+        "session_expired": "Session Expired",
+        "please_login": "Please login again"
+    },
+    "more_menu_item": {
+        "vehicle": "Vehicle",
+        "favorite": "Favorite",
+        "payment": "Payment",
+        "coupon": "Coupon",
+        "fleet_card": "Fleet Card",
+        "fleet_operation": "Fleet Operation"
+    },
+    "bottom_navigation": {
+        "home": "Home",
+        "station": "Stations",
+        "history": "History",
+        "menu": "Menu",
+        "scan": "Scan",
+        "charging": "Charging"
+    },
+    "pin_code": {
+        "enter_your_pin": "Enter Your PIN",
+        "create_pin": "Create PIN",
+        "confrim_your_pin": "Confirm your PIN",
+        "enter_your_old_pin": "Enter Your Current PIN",
+        "enter_your_new_pin": "Enter Your New PIN",
+        "confirm_your_new_pin": "Confirm Your New PIN",
+        "pin_do_not_match": "PIN does not match",
+        "change_pin_success": "Update PIN Success",
+        "alert_biometric_title_ios": "FaceID",
+        "alert_biometric_title_android": "FingerScan",
+        "alert_biometric_description_ios": "Enable FaceID for PIN",
+        "alert_biometric_description_android": "Enable FingerScan for PIN",
+        "alert_biometric_left_btn": "Cancel",
+        "alert_biometric_right_btn": "OK",
+        "forgot_pin": "Forgot PIN ?"
+    },
+    "alert_permission_location": {
+        "title": "Permission Location",
+        "description": "Please enable location to use this feature."
+    },
+    "update_version": {
+        "title": "Update Version",
+        "description": "Please update application."
+    },
+    "month": {
+        "jan": "January",
+        "feb": "February",
+        "mar": "March",
+        "apr": "April",
+        "may": "May",
+        "jun": "June",
+        "jul": "July",
+        "aug": "August",
+        "seb": "September",
+        "oct": "October",
+        "nov": "November",
+        "dec": "December"
+    },
+    "date": {
+        "monday": "Mon.",
+        "tuesday": "Tue.",
+        "wednesday": "Wed.",
+        "thursday": "Thu.",
+        "friday": "Fri.",
+        "saturday": "Sat.",
+        "sunday": "Sun.",
+        "today": "Today"
+    },
+    "coupon": {
+        "coupon_list": {
+            "active_coupon": "Active Coupon",
+            "used_coupon": "Used Coupon",
+            "search_coupon": "Search Coupon",
+            "not_find": "Not find coupon",
+            "no_permission": "no Permission",
+            "scan_qrcode_view_detail": "Scan the QR code on the coupon to view coupon infomation"
+        },
+        "coupon_search": {
+            "button": {
+                "collect": "Collect",
+                "collected": "Collected"
+            }
+        }
+    },
+    "coupon_detail": {
+        "button": {
+            "collect": "Collect",
+            "collected": "Collected",
+            "use_now": "Use Now",
+            "use_later": "Use Later"
+        }
+    },
+    "empty": {
+        "favorite": "No favorites",
+        "map": "Station not found",
+        "notification": "No notification",
+        "vehicle": "No electric vehicle",
+        "coupon": "No coupon",
+        "card": "No card",
+        "history": "No data found",
+        "not_open_booking": "Not open for reservation",
+        "booking_time_out": "Currently not in\nthe booking period."
+    },
+    "alert_payment_debt": {
+        "title": "Outstanding Balance",
+        "description": "Please pay before using the service",
+        "text_button": "See Details"
+    },
+    "alert_can_not_navigate_map": {
+        "title": "Can't navigate to Google Maps",
+        "description": "Can't find Google Maps or doesn't install Google Maps"
+    },
+    "delete_account_page": {
+        "enter_password": "Enter your password to verify your identity again.",
+        "hintText": "Password",
+        "note": "Note : Your Account will be permanently deleted from the system.",
+        "confirm_delete": "Confirm Delete",
+        "alert_confirm": {
+            "title": "Delete Account",
+            "description": "Are you sure you want to delete your account ?"
+        }
+    },
+    "alert_change_language": {
+        "title": "Change language",
+        "description": "Confirm to change language ?"
+    },
+    "alert_read_all": {
+        "title": "Read all notifications",
+        "description": "Confirm to read all notifications?"
+    },
+    "alert_permission_photos": {
+        "title": "Can't save slip",
+        "description": "Do you want to continue \n without saving the slip?",
+        "button_continue": "Continue",
+        "request_permission": "Unable to access image.",
+        "request_permission_description": "Please allow access to your image.\nThen try again."
+    },
+    "connecterInCharger": {
+        "actype": {
+            "CS1": "Type 1",
+            "CS2": "Type 2",
+            "CHaDEMO": "CHaDEMO"
+        },
+        "dctype": {
+            "CS1": "CS1",
+            "CS2": "CS2",
+            "CHaDEMO": "CHaDEMO"
+        }
+    },
+    "favorite_page":{
+        "station":"Station",
+        "route":"Route",
+        "modal_delete":{
+            "title":"Confirm Delete",
+            "desc_station":"Do you want to delete this station favorite?",
+            "desc_route":"Do you want to delete this route favorite?"
+        }
+    },
+    "alert_not_found_location": {
+        "title": "Route not found",
+        "description": "Please try again."
+    },
+    "alert_after_save": {
+        "save_success":{
+            "coupon": "Coupon Collected Successful.",
+            "profile": "Profile Picture Changed Successful.",
+            "add_favorite_station": "Add to “Favourite” Successful.",
+            "delete_favorite_station": "Delete from “Favourite” Successful."
+        },
+        "save_failure":{
+            "coupon": "Failed to collect coupon.",
+            "profile": "Failed to change profile picture.",
+            "add_favorite_station": "Failed to add to “Favourite”.",
+            "delete_favorite_station": "Failed to delete from “Favourite”."
+        }
+    },
+    "notification_setting_page":{
+        "title":"Notification Setting",
+        "push_notification":"Push Notification",
+        "allowed":"Allowed",
+        "not_allowed":"Not Allowed",
+        "application_notification":"Activity Notifications",
+        "systems":"Systems",
+        "news":"News and Promotions",
+        "systems_description":"Charging Status Notification System",
+        "news_description":"News and Promotions Notification System",
+        "alert_permission_noti": {
+            "title":"Notifications for this app are turned off.",
+            "description":"Please allow app notifications to access settings.",
+            "button_left":"Previous",
+            "button_right":"Go to Setting"
+        }
+    }
+}

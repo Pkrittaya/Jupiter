@@ -1,0 +1,5 @@
+flutter drive --driver=test/driver/integration_test.dart --target=test/driver/login_test.dart --dart-define-from-file config_jupiter_dev.json --flavor playstore
+flutter drive --driver=test/driver/integration_test.dart --target=test/driver/login_test_patrol.dart --dart-define-from-file config_jupiter_dev.json --flavor playstore
+******** NEW TEST ********
+flutter drive -d 3C9D5019-2DA0-4786-BB60-868E2DFDD382 --driver=test/driver/integration_test.dart --target=test/driver/login_test.dart --dart-define-from-file config_jupiter_plc_dev.json --flavor plc
+flutter drive -d emulator-5554 --driver=test/driver/integration_test.dart --target=test/driver/login_test.dart --dart-define-from-file config_jupiter_fast.json --flavor plc

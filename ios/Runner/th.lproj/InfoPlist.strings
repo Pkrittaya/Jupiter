@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by Supadech Santivittayarom on 17/10/2566 BE.
+  
+*/
+"NSCameraUsageDescription" = "แอพนี้ต้องการเข้าถึงกล้องเพื่อใช้งาน scan qrcode";
+"NSFaceIDUsageDescription" = "ใช้ FaceId แทนรหัสผ่าน";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "แอพนี้ต้องการเข้าถึง location เพื่อแสดงข้อมูลเกี่ยวกับสถานี";
+"NSLocationAlwaysUsageDescription" = "แอพนี้ต้องการเข้าถึง location เพื่อแสดงข้อมูลเกี่ยวกับสถานี";
+"NSLocationWhenInUseUsageDescription" = "แอพนี้ต้องการเข้าถึง location เพื่อแสดงข้อมูลเกี่ยวกับสถานี";
+"NSPhotoLibraryUsageDescription" = "อนุญาตให้เข้าถึงรุปภาพเพื่ออัพโหลดรูปโปรไฟล์ใหม่จากคลังภาพของคุณ";
+"NSUserNotificationsUsageDescription" = "แอพต้องการเข้าถึง notification เพื่อการให้ข้อมูลที่ดีกว่า";

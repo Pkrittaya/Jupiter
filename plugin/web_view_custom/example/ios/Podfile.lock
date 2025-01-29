@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - web_view_custom (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - web_view_custom (from `.symlinks/plugins/web_view_custom/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  web_view_custom:
+    :path: ".symlinks/plugins/web_view_custom/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  web_view_custom: 2c66952dea644cbc360ec5a120ed665cc7e886a5
+
+PODFILE CHECKSUM: ce095a65a728ff22e92785acafa58da9921fdc6a
+
+COCOAPODS: 1.11.3

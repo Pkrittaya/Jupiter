@@ -1,0 +1,12 @@
+{
+    "APP_NAME": "Jupiter(Test)",
+    "APP_ID": "com.pttdigital.jupiter",
+    "MAPS_API_KEY_ANDROID": "AIzaSyAtB-mOMaisAnLXeKoN3MpyV8xBA2SX_mY",
+    "MAPS_API_KEY_IOS": "AIzaSyCpQxKH29T6oJYYMMGp3887Q1RxDXY-0BU",
+    "IOS_UPDATE": "https://web-install-jupiter.vercel.app/ios",
+    "ANDROID_UPDATE": "https://web-install-jupiter.vercel.app/android",
+    "MAIN_SRC": "src/main/plc",
+    "ORG_CODE": "ju0001",
+    "VERSION_NAME": "1.1.1",
+    "VERSION_CODE": 30
+}

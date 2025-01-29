@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977836698225",
+    "project_id": "poc-mea",
+    "storage_bucket": "poc-mea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977836698225:android:952a3aa0a071da9a20c9d0",
+        "android_client_info": {
+          "package_name": "com.pttdigital.jupiter.mea"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA1sqQWAkbALpESg8kM4K_fKebg5rZRew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

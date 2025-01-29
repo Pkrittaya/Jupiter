@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "112022443008",
+    "project_id": "pttplc-52908",
+    "storage_bucket": "pttplc-52908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112022443008:android:28bd71c805e110567fb4e5",
+        "android_client_info": {
+          "package_name": "com.pttdigital.jupiter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB07BAIzGDn_UdhczUgFZKZ22J9Hy-delI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

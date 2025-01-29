@@ -1,0 +1,12 @@
+.DS_Store
+build
+.dart_tool
+.flutter-plugins
+android/.idea
+.flutter-plugins-dependencies
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+macos/Flutter/GeneratedPluginRegistrant.swift
+lib/src/data/data_sources/helper/exception.dart
+macos/Flutter/GeneratedPluginRegistrant.swift

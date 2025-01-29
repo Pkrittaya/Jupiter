@@ -1,0 +1,12 @@
+{
+    "APP_NAME": "Jupiter(MEA)",
+    "APP_ID": "com.pttdigital.jupiter.mea",
+    "MAPS_API_KEY_ANDROID": "AIzaSyB7STxnNkd8i-mdTH6kuz2z7ISEqqnsfL8",
+    "MAPS_API_KEY_IOS": "AIzaSyBJ_XbDYxA4sQsw_PlHrvhlxXlhDDw1drQ",
+    "IOS_UPDATE": "https://web-install-jupiter.vercel.app/mea/ios",
+    "ANDROID_UPDATE": "https://web-install-jupiter.vercel.app/mea/android",
+    "MAIN_SRC": "src/main/mea",
+    "ORG_CODE": "mea",
+    "VERSION_NAME": "1.0.7",
+    "VERSION_CODE": 1
+}

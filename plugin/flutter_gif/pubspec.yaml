@@ -1,0 +1,17 @@
+name: flutter_gif
+description: gif image widget help to control gif progress,speed,repeat frames .
+version: 0.0.4
+homepage: https://github.com/saytoonz/flutter_gif
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0

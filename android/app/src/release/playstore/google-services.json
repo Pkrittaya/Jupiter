@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "342151406012",
+    "project_id": "jupiter-platform-7c839",
+    "storage_bucket": "jupiter-platform-7c839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342151406012:android:b13a91b6c4fb3e87a88bb9",
+        "android_client_info": {
+          "package_name": "com.pttdigital.jupiter.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342151406012-82s4au83v8fq3a197d8i7krvi4c5bg4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJQuEao6szAxCv-K-viq1JBPB4iSZXqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342151406012-82s4au83v8fq3a197d8i7krvi4c5bg4s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "342151406012-5die7dggf8k6cro6tpqhe0m6boncchvs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pttdigital.jupiter.store"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342151406012:android:b13a91b6c4fb3e87a88bb9",
+        "android_client_info": {
+          "package_name": "com.pttdigital.jupiter.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342151406012-82s4au83v8fq3a197d8i7krvi4c5bg4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJQuEao6szAxCv-K-viq1JBPB4iSZXqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342151406012-82s4au83v8fq3a197d8i7krvi4c5bg4s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "342151406012-5die7dggf8k6cro6tpqhe0m6boncchvs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pttdigital.jupiter.store"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
